@@ -1,0 +1,1 @@
+# Arquivo para fazer qualquer configuração antes de executar o app.py
