@@ -90,7 +90,7 @@ async def finish_video(request: Request) -> json:
 
     # Crio um objeto de vídeo com o OpenCV e já informo o codec, o fps, o resolução do vídeo e o caminho onde o vídeo será salvo
     video_path = os.path.join(sequence_dir, 'video.mp4')
-    out = cv.VideoWriter(video_path, cv.VideoWriter_fourcc(*'mp4v'), 15, (1280, 720))
+    out = cv.VideoWriter(video_path, cv.VideoWriter_fourcc(*'mp4v'), 27, (1280, 720))
 
     # Pego cada frame da pasta e escrevo no vídeo
     for frame_name in sorted(os.listdir(sequence_dir)):
