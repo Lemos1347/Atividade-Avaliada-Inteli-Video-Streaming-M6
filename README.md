@@ -6,7 +6,7 @@ https://github.com/Lemos1347/Atividade-Avaliada-Inteli-Video-Streaming-M6/assets
 
 ## Objetivo
 
-Este repositório contém o código para um servidor back-end que permite aos usuários criar e fazer upload de vídeos. O servidor é construído com o Sanic, um framework web Python 3.7+ assíncrono, e utiliza o OpenCV para processar imagens e vídeos, e o Supabase para armazenamento os vídeos. Além disso, nesse repositório ainda é possível encontrar um script em python que realizará a captura de imagens da webcam do usuário e enviará para o servidor, o qual ao final será o vídeo que será armaenado no Supabase.
+Este repositório contém o código para um servidor [back-end](/api/)(localizado na pasta `/api`) que permite aos usuários criar e fazer upload de vídeos. O servidor é construído com o Sanic, um framework web Python 3.7+ assíncrono, e utiliza o OpenCV para processar imagens e vídeos, e o Supabase para armazenamento os vídeos. Além disso, nesse repositório ainda é possível encontrar um [script em python](/video_capture/)(localizado na pasta `/video_capture`) que realizará a captura de imagens da webcam do usuário e enviará para o servidor, o qual ao final será o vídeo que será armaenado no Supabase.
 
 ## Dependências
 
